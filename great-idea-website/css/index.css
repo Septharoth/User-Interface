@@ -64,3 +64,96 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+header {
+	margin: 5px;
+}
+
+.splash, .content, .footer {
+	margin: 40px;
+}
+
+nav {
+	text-align: center;
+	background: white;
+	width: 100%;
+	
+}
+
+nav a {
+	margin: 0 2%;
+	text-decoration: none;
+	color: grey;
+}
+
+nav img {
+	vertical-align: middle;
+	margin: 0 4%;
+}
+
+.splash {
+	text-align: center;
+	
+}
+
+.splash h1 {
+	font-size: 64px;
+	font-weight: bolder;;
+}
+
+.splash .col-2 {
+	margin: 20px;
+	border-bottom: 1px solid;
+	padding: 10px;
+}
+
+.content .col-2 {
+	margin: 20px;
+	padding: 10px 0;
+}
+
+.col-2 .row {
+	display: inline-block;
+	width: 49%;
+	vertical-align: middle;
+}
+
+.content .col-3 {
+	 margin: 20px;
+	 padding: 20px 0;
+	 border-bottom: 1px solid;
+}
+
+.col-3 .row {
+	display: inline-block;
+	width: 33%;
+}
+
+.content img {
+	display: block;
+	margin: 0 auto;
+}
+
+.button {
+	border: 1px solid;
+	padding: 10px 30px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.button:hover {
+	background: black;
+	color:white;
+}
+
+.footer .col-3 {
+	margin: 20px;
+}
+
+
+.middle-img {
+	width: 97.75%;
+}
+
+.center {
+	text-align: center;
+}
